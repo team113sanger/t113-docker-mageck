@@ -10,7 +10,7 @@ ENV LANG C.UTF-8
 # ALL tool versions used by opt-build.sh
 ENV VER_NUMPY="1.17.4"
 ENV VER_SCIPY="1.3.3"
-ENV VER_MAGECK="0.5.9.2"
+ENV VER_MAGECK="0.5.9.3"
 
 RUN apt-get -yq update
 RUN apt-get install -yq \ 
