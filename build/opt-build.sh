@@ -65,7 +65,7 @@ fi
 
 # MAGeCK
 if [ ! -e $SETUP_DIR/htslib.success ]; then
-    curl -sSL --retry 10 -o mageck.tar.gz https://downloads.sourceforge.net/project/mageck/0.5/liulab-mageck-${VER_MAGECK}.tar.gz
+    curl -sSL --retry 10 -o mageck.tar.gz https://downloads.sourceforge.net/project/mageck/0.5/mageck-${VER_MAGECK}.tar.gz
     mkdir mageck
     tar --strip-components 1 -C mageck -xzf mageck.tar.gz
     cd mageck
